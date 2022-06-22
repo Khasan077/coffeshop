@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,700&family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@400;500;700&family=Roboto:wght@400;500;700;900&display=swap");
+:root {
+  --Barlow: "Barlow", sans-serif;
+  --Fraunces: "Fraunces", serif;
+  --white: #fefcf7;
+  --baccolorwhite: #f2f2f2;
+  --dark: #333d4b;
+  --exDark: #83888f;
+  --backcolor: #2c343e;
+  --greybutton: #0e8784;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: var(--Barlow);
+}
+
+header {
+  height: 100vh;
+}
+
+header .navbar {
+  background: --baccolorwhite;
+  padding: 1.2rem;
+}
+
+header .navbar .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+header .navbar .navigation .logo .img {
+  display: inline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navbar .navigation .logo i {
+  color: #0e8784;
+  font-size: 25px;
+}
+
+header .navbar .navigation .navbar-nav {
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: var(--Barlow);
+  letter-spacing: 1px;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .navbar .navigation .navbar-nav a {
+  color: var(--exDark);
+  text-decoration: none;
+  padding-left: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
